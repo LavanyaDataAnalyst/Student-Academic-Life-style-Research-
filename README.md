@@ -54,7 +54,7 @@
 
 - Visualized trends using Power BI charts and dashboards.
 
-![EDA.png](image:img_1772710270440_173105dda1da9)
+![EDA Analysis](images/EDA.png)
 
 >Figure: Comparison of study habits and academic performance across different learning styles.
 
