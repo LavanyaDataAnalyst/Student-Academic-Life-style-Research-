@@ -3,7 +3,7 @@
 * This study examines how students’ daily habits and learning styles influence their exam results. 
 * Using data from an academic dataset, it applies cleaning and BI visualization to identify meaningful patterns. 
 * The analysis leverages Excel for data preparation and Power BI (with DAX measures) for modeling and dashboards.
----
+  
 ## 📖 Table of Contents:
 >* Project Overview
 >* Data Source
@@ -13,23 +13,23 @@
 >* Key Insights
 >* Recommendations
 >* How to Use
----
+
 ## 📘Project Overview:
-* The project aims to understand the impact of lifestyle factors (study hours, sleep, social media use, etc.) and learning styles (Kinesthetic, Reading/Writing, Auditory, Visual) on academic performance. 
+- The project aims to understand the impact of lifestyle factors (study hours, sleep, social media use, etc.) and learning styles (Kinesthetic, Reading/Writing, Auditory, Visual) on academic performance. 
 - Key objectives include analyzing student study habits, comparing performance across learning styles and gender, and identifying factors that influence exam scores.
----
+
 ## 🗂 Data Source:
 * The dataset (education domain) was sourced from `DeepDataLake.com`
 * It contains student records with fields such as age, gender, weekly study hours, preferred learning style, number of online courses completed, discussion participation, assignment completion rate, exam score (%), attendance rate (%), use of educational technology, self-reported stress level, weekly social media hours, nightly sleep hours, and final grade.
 * This multi-dimensional data enables comprehensive analysis of lifestyle versus performance.
- ---
+ 
 ## 🛠 Tools & Technologies:
 * Microsoft Excel and Power BI are the primary tools. 
 * **Excel** was used for data cleaning (pivot tables, sorting, filtering) and initial exploration. 
 * **Power BI handled data modeling and visualization:** the model includes eight related tables to ensure data integrity. 
 * **Custom DAX measures, calculated tables and calculated columns** were implemented to create categories like Sleep Level (Insufficient/Adequate), Usage Level (Minimal/Casual/Regular), Study Level (Minimal/Light/Regular/Dedicated), and Performance Level (Top/Average/Low).
 * **Interactive dashboards** (bar charts, KPIs, filters) summarize key metrics by student segments.
----
+
 ## 🧹Data Cleaning & Preparation
 
 - Cleaned and structured the dataset using Microsoft Excel.
@@ -41,8 +41,6 @@
 - Organized data by Student ID and segmented by learning style.
 
 - Created pivot tables to summarize study hours, sleep, and exam scores.
-
-  --- 
 
 ## 📊 Exploratory Data Analysis (EDA)
 
@@ -56,11 +54,9 @@
 
 - Visualized trends using Power BI charts and dashboards.
 
-![EDA.png](jb-image:img_1772710270440_173105dda1da9)
+![EDA.png](image:img_1772710270440_173105dda1da9)
 
 >Figure: Comparison of study habits and academic performance across different learning styles.
-
----
 
 ## 🔍 Key Insights
 
@@ -74,8 +70,6 @@
 
 - Stress levels were higher among younger students but had limited effect on scores.
 
----
-
 ## 💡Recommendations
 
 - Encourage **structured study schedules** for better time management.
@@ -87,7 +81,6 @@
 - Increase **student engagement** through discussions and learning platforms.
 
 - Motivate students to complete **online certifications and skill courses.**
----
 
 ## ▶️ How to Use
 
@@ -100,7 +93,6 @@
 - Compare lifestyle factors with academic outcomes through visual reports.
 
 - Use insights to support data-driven academic decision-making.
----
 
 ## 👩‍💻 Author
  > Lavanya Madhan Raj
